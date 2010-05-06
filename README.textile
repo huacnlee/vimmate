@@ -1,6 +1,6 @@
 custom "Vim":http://vim.org like "Textmate":http://macromates.com
 
-h2.Features
+h2. Features
 
    * Gemcolor:http://www.vim.org/scripts/script.php?script_id=2866 with highlight;
    * Simple UI, removed the Menu,Toolbar,Scrollbar etc.;
@@ -10,7 +10,7 @@ h2.Features
    * NERD tree with Project list,press F7 and then press ? to view help
    * Show color as background with hex color code in CSS file 
    
-h2.快捷键说明
+h2. 快捷键说明
 
     * [F7] 开关 NERD tree (文件目录树)
     * [F8] 开关 BufExplorer? (用于切换已经打开的文件，Tab的替代品)
@@ -27,7 +27,7 @@ h2.快捷键说明
     * [v] 进入键盘选择模式
     * [V] 进入键盘行选择模式 
 
-    h3.NERD tree
+    h3. NERD tree
 
         * [b] 开/关 收藏夹
         * [D] 删除 选中的 收藏
@@ -42,7 +42,7 @@ h2.快捷键说明
         * -- 命令 ---------------------------------------------------------
         * Bookmark 别名 收藏 NERD tree 里面当前选择的目录 
 
-    h3.BufExplorer
+    h3. BufExplorer
 
         * [D] 关闭选中的文件
         * [d] 清楚选中的文件
@@ -53,7 +53,7 @@ h2.快捷键说明
         * [s] 改变排序方式 "编号(打开的顺序)","文件名","目录名","mru","扩展名"
         * [r] 倒序排列 
 
-h2.Screenshot
+h2. Screenshot
 
   !imageurl!:http://farm3.static.flickr.com/2564/4127746406_7ab9c4342d.jpg
 
