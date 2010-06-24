@@ -158,6 +158,13 @@ imap <silent> <C-down> <esc><C-W><down>
 vmap <silent> <C-down> <esc><C-W><down>
 nmap <silent> <C-down> <C-W><down>
 
+" delete hack
+nmap <silent> <del> "_x
+vmap <silent> <del> "_x
+nmap <silent> dd V<del>
+nmap <silent> dw viw<del>
+vmap <silent> dw iw<del>
+
 
 " Textmate alt-p & alt+l {{{
 inoremap <M-p> params[:]<left>
@@ -218,3 +225,4 @@ let g:acp_ignorecaseOption = 0
 " 自动完成设置为 Ctrl + p 弹出
 let g:acp_behaviorKeywordCommand = "\<C-p>"
 let g:acp_completeoptPreview = 0
+
