@@ -44,17 +44,17 @@ h3. NERD tree 快捷键
 
 h3. BufExplorer
 
-		* D -- 关闭选中的文件
-		* d -- 清楚选中的文件
-		* Enter -- 切换到选中的文件
-		* p -- 显示隐藏 文件名列
-		* R -- 显示隐藏 文件目录列
-		* u -- 显示隐藏 未列出的 Buffers
-		* s -- 改变排序方式 "编号(打开的顺序)","文件名","目录名","mru","扩展名"
-		* r -- 倒序排列 
+	* D -- 关闭选中的文件
+	* d -- 清楚选中的文件
+	* Enter -- 切换到选中的文件
+	* p -- 显示隐藏 文件名列
+	* R -- 显示隐藏 文件目录列
+	* u -- 显示隐藏 未列出的 Buffers
+	* s -- 改变排序方式 "编号(打开的顺序)","文件名","目录名","mru","扩展名"
+	* r -- 倒序排列 
 
 h2. Screenshot
 
-	!imageurl!:http://farm3.static.flickr.com/2564/4127746406_7ab9c4342d.jpg
-	!imageurl!:http://farm3.static.flickr.com/2679/4126975329_6f32576480.jpg
+	!http://farm3.static.flickr.com/2564/4127746406_7ab9c4342d.jpg!
+	!http://farm3.static.flickr.com/2679/4126975329_6f32576480.jpg!
 
