@@ -1,3 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/home/hsli/.vim'
+let g:netrw_dirhist_2='/home/jason/.rvm/gems/ruby-1.8.7-p302/gems/json-1.4.6'
+let g:netrw_dirhist_3='/home/jason/.rvm/gems/ruby-1.8.7-p302/gems/mongo_mapper-0.8.6/lib/mongo_mapper'
+let g:netrw_dirhist_4='/home/jason/work/ytrip/config/environments'
+let g:netrw_dirhist_5='/home/jason/work/warehouse/config/environments'

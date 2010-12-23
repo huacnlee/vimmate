@@ -2,6 +2,11 @@
 set sw=2
 set ts=2
 
+" Source the vimrc file after saving it
+if has("autocmd")
+  autocmd bufwritepost .vimrc source $MYVIMRC
+endif
+
 " history文件中需要记录的行数
 set history=100
 " 带有如下符号的单词不要被换行分割
@@ -44,4 +49,3 @@ set novisualbell
 set formatoptions+=mM
 "文件 UTF-8 编码
 set fileencodings=utf-8
-

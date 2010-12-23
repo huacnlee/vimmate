@@ -1,18 +1,16 @@
 " Last Change: 2009-11-13 17:21:06
-"判断系统是否具有“自动命令”（autocmd）的支持
-if has('autocmd')
-"清除所有的自动命令，以方便调试
-au!
-"对于后缀为“.asm”的文件，认为其是微软的 Macro Assembler 格式
-"autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
+" Source the vimrc file after saving it
+if has("autocmd")
+  autocmd bufwritepost .vimrc source $MYVIMRC
 endif
+
+" endif
 " 载入文件类型插件
 filetype plugin on 
 " 为特定文件类型载入相关缩进文件
 filetype indent on 
 " colorscheme railscasts
-" colorscheme fruidle
-colorscheme gemcolors 
+colorscheme mac_classic
 " colorscheme night
 " colorscheme twilight
 "语法样式开启
@@ -140,8 +138,8 @@ nmap <silent> <F8> :BufExplorer<CR>
 
 " NERD Commenter {{{
 let NERDSpaceDelims = 1
-map <M-/> <Plug>NERDCommenterToggle
-imap <M-/> <C-O><Plug>NERDCommenterToggle
+map <silent> <C-/> :NERDCommenterToggle<CR>
+imap <silent> <C-/> :NERDCommenterToggle<CR>
 " }}}
 
 " 窗口区域切换,Ctrl+↑↓←→  来切换
@@ -171,19 +169,12 @@ inoremap <M-p> params[:]<left>
 inoremap <M-j> session[:]<left>
 inoremap <M-l> <space>=><space>
 inoremap <M->> <%=<space><space>%><left><left><left>
-" shift+alt+l 选择行
-inoremap <M-L> <C-O><home>v<S-end>
-nnoremap <M-L> <home>v<S-end>
-" shift+alt+k 删除行
-inoremap <M-K> <C-O><home>v<S-end><del>
-nnoremap <M-K> <home>v<s-end><del>
 " ctrl + c,a,v,x,z
 nnoremap <BS> d
 " ctrl + a
 noremap <C-A> ggVG
 inoremap <C-A> <C-O>ggVG
 " ctrl + s
-
 imap <C-s> <esc>:w<CR>:echo expand("%f") . " saved."<CR>
 vmap <C-s> <esc>:w<CR>:echo expand("%f") . " saved."<CR>
 nmap <C-s> :w<CR>:echo expand("%f") . " saved."<CR>
@@ -225,4 +216,5 @@ let g:acp_ignorecaseOption = 0
 " 自动完成设置为 Ctrl + p 弹出
 let g:acp_behaviorKeywordCommand = "\<C-p>"
 let g:acp_completeoptPreview = 0
+
 
