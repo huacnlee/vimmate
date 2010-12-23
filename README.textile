@@ -55,6 +55,6 @@ h3. BufExplorer
 
 h2. Screenshot
 
-	!http://farm3.static.flickr.com/2564/4127746406_7ab9c4342d.jpg!
-	!http://farm3.static.flickr.com/2679/4126975329_6f32576480.jpg!
+	!http://farm6.static.flickr.com/5090/5285851000_92618eddb4_z.jpg!:http://farm6.static.flickr.com/5090/5285851000_92618eddb4_b.jpg
+	!http://farm6.static.flickr.com/5045/5285850816_7df1afe88c_z.jpg!:http://farm6.static.flickr.com/5045/5285850816_7df1afe88c_b.jpg
 
