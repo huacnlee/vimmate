@@ -16,14 +16,7 @@ h2. 快捷键说明
     * F8 -- 开关 BufExplorer? (用于切换已经打开的文件，Tab的替代品)
     * Ctrl+F12 -- 显示/隐藏 主菜单 (默认隐藏)
     * Ctrl+上，下，左，右 -- 窗口区域间切换，切换光标到 NERD tree、编辑区...
-    * Ctrl+n,s,c,x,v,z,y,a -- 新建、保存、复制、剪切、粘贴、撤销、重做、全选... 类似 Notepad 的快捷键 
 
-    * Alt+/ -- 注释、注释
-    * Alt+j -- 类似 Textmate 输出 session[:]
-    * Alt+p -- 类似 Textmate 输出 params[:]
-    * Alt+l -- 类似 Textmate 输出 =>
-    * Shift+Alt+k -- 删除行
-    * Shift+Alt+l -- 选择行
     * v -- 进入键盘选择模式
     * V -- 进入键盘行选择模式 
 
