@@ -1,7 +1,14 @@
 " Last Change: 2009-11-13 17:21:06
 " Source the vimrc file after saving it
+"设置缩进
+set sw=2
+set ts=2
+set softtabstop=2
+set expandtab
+
 if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
+	autocmd FileType python setlocal et sta sw=4 sts=4
 endif
 
 " endif
@@ -19,11 +26,6 @@ syntax on
 set guifont=Monaco
 "当使用了图形界面，并且环境变量 LANG 中不含“.”（即没有规定编码）时，把 Vim 的内部编码设为 UTF-8
 "set encoding=utf-8
-"设置缩进
-set sw=2
-set ts=2
-set softtabstop=2
-set expandtab
 " history文件中需要记录的行数
 set history=100 
 " 带有如下符号的单词不要被换行分割
@@ -127,15 +129,6 @@ imap <silent> <F8> <esc>:BufExplorer<CR>
 nmap <silent> <F8> :BufExplorer<CR>
 " }}}
 
-"CTRL-[ and CTRL-] indent and unindent blocks {{{
-"  inoremap <C-[> <C-O><LT><LT>
-" inoremap <C-]> <C-O><GT><GT>
-"  nnoremap <C-[> <LT><LT>
-"  nnoremap <C-]> <GT><GT>
-"  vnoremap <C-[> <LT>
-"  vnoremap <C-]> <GT>
-"}}}
-
 " NERD Commenter {{{
 let NERDSpaceDelims = 1
 map <silent> <C-/> :NERDCommenterToggle<CR>
@@ -163,58 +156,9 @@ nmap <silent> dd V<del>
 nmap <silent> dw viw<del>
 vmap <silent> dw iw<del>
 
-
-" Textmate alt-p & alt+l {{{
-inoremap <M-p> params[:]<left>
-inoremap <M-j> session[:]<left>
-inoremap <M-l> <space>=><space>
-inoremap <M->> <%=<space><space>%><left><left><left>
-" ctrl + c,a,v,x,z
-nnoremap <BS> d
-" ctrl + a
-noremap <C-A> ggVG
-inoremap <C-A> <C-O>ggVG
-" ctrl + s
-imap <C-s> <esc>:w<CR>:echo expand("%f") . " saved."<CR>
-vmap <C-s> <esc>:w<CR>:echo expand("%f") . " saved."<CR>
-nmap <C-s> :w<CR>:echo expand("%f") . " saved."<CR>
-
-" ctrl + n
-imap <C-n> <esc>:enew!<CR>
-nmap <C-n> :enew!<CR>
-vmap <C-n> <esc>:enew!<CR>
-" ctrl + c
-vmap <C-c> "+y
-" ctrl + x
-vmap <C-x> "+x
-" ctrl + z
-inoremap <C-z> <C-O>u
-nnoremap <C-z> u
-" ctrl + y
-inoremap <C-y> <C-O><C-R>
-nnoremap <C-y> <C-R>
-" ctrl + v
-nnoremap <C-v> "+gP
-inoremap <C-v> <C-O>"+gP
-" ctrl + f
-imap <C-f> <esc>:/
-nmap <C-f> :/
-" ctrl + r
-imap <C-r> <esc>:%s/
-vmap <C-r> <esc>:%s/
-nmap <C-r> :%s/
-" ctrl + o
-imap <C-o> <C-O>:e
-vmap <C-o> <esc>:e
-nmap <C-o> :e 
-"}}}
-
-let g:acp_enableAtStartup = 1
-" 自动完成设置 禁止在插入模式移动的时候出现 Complete 提示
-let g:acp_mappingDriven = 1
-let g:acp_ignorecaseOption = 0
-" 自动完成设置为 Ctrl + p 弹出
-let g:acp_behaviorKeywordCommand = "\<C-p>"
-let g:acp_completeoptPreview = 0
-
-
+" VimTwitter
+" VimTwitter 
+let twitvim_proxy = "http://172.28.150.20:8080" 
+let twitvim_login = "huacnlee:huacnlee" 
+let twitvim_api_root = "http://3.pasite.org/t1/o/huacnlee/monster" 
+let twitvim_enable_ruby = 1
