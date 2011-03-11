@@ -1,6 +1,6 @@
 custom "Vim":http://vim.org like "Textmate":http://macromates.com
 
-h2. Features
+h3. Features
 
    * Gemcolor:http://www.vim.org/scripts/script.php?script_id=2866 with highlight;
    * Simple UI, removed the Menu,Toolbar,Scrollbar etc.;
@@ -10,34 +10,36 @@ h2. Features
    * NERD tree with Project list,press F7 and then press ? to view help
    * Show color as background with hex color code in CSS file 
    
-h2. 快捷键说明
+h3. 快捷键说明
 
-    * F7 -- 开关 NERD tree (文件目录树)
-    * F8 -- 开关 BufExplorer? (用于切换已经打开的文件，Tab的替代品)
-    * Ctrl+F12 -- 显示/隐藏 主菜单 (默认隐藏)
-    * Ctrl+上，下，左，右 -- 窗口区域间切换，切换光标到 NERD tree、编辑区...
-		* Ctrl+Shift+p 或者 Ctrl+Shift+n -- 调用自动完成
-		* \cc -- 注释
-    * \c空格 -- 去掉注释
-    * \ci -- 开关注视
-		* \ff -- Javascript 代码自动排版
-    * v -- 进入键盘选择模式
-    * V -- 进入键盘行选择模式 
+	* F7 -- 开关 NERD tree (文件目录树)
+	* F8 -- 开关 BufExplorer? (用于切换已经打开的文件，Tab的替代品)
+	* Ctrl+F12 -- 显示/隐藏 主菜单 (默认隐藏)
+	* Ctrl+上，下，左，右 -- 窗口区域间切换，切换光标到 NERD tree、编辑区...
+	* Ctrl+Shift+p 或者 Ctrl+Shift+n -- 调用自动完成
+	* = -- 自动根据代码缩进
+	* \cc -- 注释
+	* \c空格 -- 去掉注释
+	* \ci -- 开关注视
+	* \ff -- Javascript 代码自动排版
+	* \P -- 在浏览器中预览 rdoc/html/markdown/textile 文件
+	* v -- 进入键盘选择模式
+	* V -- 进入键盘行选择模式 
 
 h3. NERD tree 快捷键
 
-		* b -- 开/关 收藏夹
-		* D -- 删除 选中的 收藏
-		* ? -- 显示帮助
-		* Enter -- 选择/展开关闭 目录
-		* m -- 显示文件操作菜单，用它来创建/移动/删除 目录或文件
-		* u -- 跳到上一个文件夹
-		* C -- 将跟节点转入当前选中的目录
-		* r -- 刷新选中的目录
-		* R -- 刷新根节点的目录
-		* cd -- 将vim的运行时目录改为选中的目录
+	* b -- 开/关 收藏夹
+	* D -- 删除 选中的 收藏
+	* ? -- 显示帮助
+	* Enter -- 选择/展开关闭 目录
+	* m -- 显示文件操作菜单，用它来创建/移动/删除 目录或文件
+	* u -- 跳到上一个文件夹
+	* C -- 将跟节点转入当前选中的目录
+	* r -- 刷新选中的目录
+	* R -- 刷新根节点的目录
+	* cd -- 将vim的运行时目录改为选中的目录
 
-		* Bookmark 别名 收藏 NERD tree 里面当前选择的目录 
+	* Bookmark 别名 收藏 NERD tree 里面当前选择的目录 
 
 h3. BufExplorer
 
