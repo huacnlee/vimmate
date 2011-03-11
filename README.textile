@@ -5,7 +5,7 @@ h2. Features
    * Gemcolor:http://www.vim.org/scripts/script.php?script_id=2866 with highlight;
    * Simple UI, removed the Menu,Toolbar,Scrollbar etc.;
    * Textmate bundles like snippets, and you can custom is in vimfiles/snippets;
-   * Word,Keyword autocomplete;
+   * -Word,Keyword autocomplete- ;
    * BufExplorer? with mulit-file edit, press F8.
    * NERD tree with Project list,press F7 and then press ? to view help
    * Show color as background with hex color code in CSS file 
@@ -16,6 +16,7 @@ h2. 快捷键说明
     * F8 -- 开关 BufExplorer? (用于切换已经打开的文件，Tab的替代品)
     * Ctrl+F12 -- 显示/隐藏 主菜单 (默认隐藏)
     * Ctrl+上，下，左，右 -- 窗口区域间切换，切换光标到 NERD tree、编辑区...
+		* Ctrl+Shift+p 或者 Ctrl+Shift+n -- 调用自动完成
 
     * v -- 进入键盘选择模式
     * V -- 进入键盘行选择模式 
