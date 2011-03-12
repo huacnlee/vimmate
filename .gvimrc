@@ -1,5 +1,3 @@
-" Last Change: 2009-11-13 17:21:06
-" Source the vimrc file after saving it
 "设置缩进
 set sw=2
 set ts=2
@@ -156,9 +154,3 @@ nmap <silent> dd V<del>
 nmap <silent> dw viw<del>
 vmap <silent> dw iw<del>
 
-" VimTwitter
-" VimTwitter 
-let twitvim_proxy = "http://172.28.150.20:8080" 
-let twitvim_login = "huacnlee:huacnlee" 
-let twitvim_api_root = "http://3.pasite.org/t1/o/huacnlee/monster" 
-let twitvim_enable_ruby = 1
