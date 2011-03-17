@@ -14,8 +14,7 @@ endif
 filetype plugin on 
 " 为特定文件类型载入相关缩进文件
 filetype indent on 
-" colorscheme railscasts
-colorscheme mac_classic
+colorscheme blackboard
 " colorscheme night
 " colorscheme twilight
 "语法样式开启
@@ -88,8 +87,8 @@ let use_xhtml = 1
 "隐藏底部滚动条
 set guioptions-=b
 "隐藏右边滚动条
-set guioptions-=R
-set guioptions-=r
+"set guioptions-=R
+"set guioptions-=r
 "隐藏左边滚动条
 set guioptions-=l
 set guioptions-=L
@@ -123,14 +122,8 @@ autocmd BufEnter * call CHANGE_CURR_DIR()
 imap <silent> <F7> <esc>:NERDTreeToggle<CR>
 nmap <silent> <F7> :NERDTreeToggle<CR>
 " BufExplorer 快捷键 {{{
-imap <silent> <F8> <esc>:BufExplorer<CR>
-nmap <silent> <F8> :BufExplorer<CR>
-" }}}
-
-" NERD Commenter {{{
-let NERDSpaceDelims = 1
-map <silent> <C-/> :NERDCommenterToggle<CR>
-imap <silent> <C-/> :NERDCommenterToggle<CR>
+imap <silent> <C-b> <esc>:BufExplorer<CR>
+nmap <silent> <C-b> :BufExplorer<CR>
 " }}}
 
 " 窗口区域切换,Ctrl+↑↓←→  来切换
