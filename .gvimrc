@@ -20,7 +20,7 @@ colorscheme blackboard
 "语法样式开启
 syntax on
 "设置字体大小
-set guifont=Monaco
+set guifont=Monaco:h12
 "当使用了图形界面，并且环境变量 LANG 中不含“.”（即没有规定编码）时，把 Vim 的内部编码设为 UTF-8
 "set encoding=utf-8
 " history文件中需要记录的行数
