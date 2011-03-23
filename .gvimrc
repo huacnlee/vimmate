@@ -126,6 +126,15 @@ imap <silent> <C-b> <esc>:BufExplorer<CR>
 nmap <silent> <C-b> :BufExplorer<CR>
 " }}}
 
+
+" CTRL-C  are Copy
+vnoremap <C-C> "+y
+" CTRL-V are Paste
+map <C-V>	"+gP
+cmap <C-V> <C-R>+
+imap <C-V> <C-R>+
+
+
 " 窗口区域切换,Ctrl+↑↓←→  来切换
 imap <silent> <C-left> <esc><C-W><left>
 vmap <silent> <C-left> <esc><C-W><left>
