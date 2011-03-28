@@ -1,8 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/home/jason'
 let g:netrw_dirhist_2='/home/jason/.vim'
 let g:netrw_dirhist_3='/home/jason/.node_libraries'
 let g:netrw_dirhist_4='/etc/apache2/modules'
 let g:netrw_dirhist_5='/etc/apache2/htdocs'
 let g:netrw_dirhist_6='/home/jason/.vim'
+let g:netrw_dirhist_7='/home/jason/work/poweredsites/bin'

@@ -14,15 +14,6 @@ endif
 
 let g:colors_name = "blackboard"
 
-" Colours in use
-" --------------
-" #FF5600 bright orange
-" #FFDE00 yolk yellow
-" #D8FA3C lemon yellow
-" #61CE3C green
-" #84A7C1 light blue
-" #AEAEAE medium grey
-
 if has("gui_running")
   "GUI Colors
   highlight Normal guifg=White   guibg=#0B1022
@@ -99,5 +90,4 @@ if has("gui_running")
   highlight gitcommitWarning guifg=#C23621
   highlight gitcommitBranch guifg=#FFDE00
   highlight gitcommitHeader guifg=#84A7C1
-
 end
