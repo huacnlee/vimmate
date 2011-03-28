@@ -2,12 +2,12 @@ custom "Vim":http://vim.org like "Textmate":http://macromates.com
 
 h3. Features
 
-   * Gemcolor:http://www.vim.org/scripts/script.php?script_id=2866 with highlight;
    * Simple UI, removed the Menu,Toolbar,Scrollbar etc.;
    * Textmate bundles like snippets, and you can custom is in vimfiles/snippets;
    * -Word,Keyword autocomplete- ;
    * BufExplorer? with mulit-file edit, press F8.
    * NERD tree with Project list,press F7 and then press ? to view help
+   * Zen Coding
    * Show color as background with hex color code in CSS file 
    
 h3. 快捷键说明
@@ -25,6 +25,12 @@ h3. 快捷键说明
 	* \P -- 在浏览器中预览 rdoc/html/markdown/textile 文件
 	* v -- 进入键盘选择模式
 	* V -- 进入键盘行选择模式 
+
+h3. Zen Coding 快捷键 ("详细":https://github.com/mattn/zencoding-vim/raw/master/TUTORIAL)
+
+	* Ctrl+y, -- 执行 Zen Coding
+  * Ctrl+yn -- 转到下一个插入点
+  * Ctrl+yN -- 转到上一个插入点
 
 h3. NERD tree 快捷键
 
