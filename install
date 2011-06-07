@@ -1,0 +1,5 @@
+echo "Now installing VimMate to your system..."
+cp .vimrc ~/
+cp -R .vim ~/
+cp .gvimrc ~/
+echo "Install done."

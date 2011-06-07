@@ -9,6 +9,12 @@ h3. Features
    * NERD tree with Project list,press F7 and then press ? to view help
    * Zen Coding
    * Show color as background with hex color code in CSS file 
+
+h3. Install
+
+ $ git clone git://github.com/huacnlee/vimmate.git
+ $ cd vimmate
+ $ ./install
    
 h3. 快捷键说明
 
