@@ -14,7 +14,7 @@ endif
 filetype plugin on 
 " 为特定文件类型载入相关缩进文件
 filetype indent on 
-colorscheme railscasts
+colorscheme ir_black
 " colorscheme blackboard
 " colorscheme night
 " colorscheme twilight
