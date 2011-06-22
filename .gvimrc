@@ -14,7 +14,8 @@ endif
 filetype plugin on 
 " 为特定文件类型载入相关缩进文件
 filetype indent on 
-colorscheme blackboard
+colorscheme railscasts
+" colorscheme blackboard
 " colorscheme night
 " colorscheme twilight
 "语法样式开启
@@ -97,6 +98,8 @@ set guioptions-=m
 "隐藏工具栏
 set guioptions-=T
 
+"启动打开NERD_tree
+NERDTree
 
 "设置Ctrl+F12呼出菜单栏
 function! ToggleMenuBar()
