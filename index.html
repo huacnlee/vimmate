@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Vimmate by huacnlee</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Vimmate</h1>
+        <p>Custom vim like Textmate for Ruby on Rails development</p>
+
+        <p class="view"><a href="https://github.com/huacnlee/vimmate">View the Project on GitHub <small>huacnlee/vimmate</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/huacnlee/vimmate/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/huacnlee/vimmate/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/huacnlee/vimmate">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>custom <a href="http://vim.org">Vim</a> like <a href="http://macromates.com">TextMate</a> for Ruby Developers.</p>
+
+<h2>Features</h2>
+
+<ul>
+<li>Simple UI, removed the Menu,Toolbar,Scrollbar etc.;</li>
+<li>Textmate bundles like snippets, and you can custom is in vimfiles/snippets;</li>
+<li>-Word,Keyword autocomplete- ;</li>
+<li>BufExplorer? with mulit-file edit, press F8.</li>
+<li>NERD tree with Project list,press F7 and then press ? to view help</li>
+<li>Zen Coding</li>
+<li>Show color as background with hex color code in CSS file </li>
+</ul><h2>Install</h2>
+
+<div class="highlight"><pre>git clone git://github.com/huacnlee/vimmate.git
+<span class="nb">cd </span>vimmate
+./install
+</pre></div>
+
+<h2>使用说明</h2>
+
+<h3>快捷键说明</h3>
+
+<ul>
+<li>F7 -- 开关 NERD tree (文件目录树)</li>
+<li>Ctrl+b -- 开关 BufExplorer? (用于切换已经打开的文件，Tab的替代品)</li>
+<li>Ctrl+F12 -- 显示/隐藏 主菜单 (默认隐藏)</li>
+<li>Ctrl+上，下，左，右 -- 窗口区域间切换，切换光标到 NERD tree、编辑区...</li>
+<li>Ctrl+Shift+p 或者 Ctrl+Shift+n -- 调用自动完成</li>
+<li>= -- 自动根据代码缩进</li>
+<li>\cc -- 注释</li>
+<li>\c空格 -- 去掉注释</li>
+<li>\ci -- 开关注视</li>
+<li>\ff -- Javascript 代码自动排版</li>
+<li>\P -- 在浏览器中预览 rdoc/html/markdown/textile 文件</li>
+<li>v -- 进入键盘选择模式</li>
+<li>V -- 进入键盘行选择模式 </li>
+</ul><h3>NERD tree 快捷键</h3>
+
+<ul>
+<li>b -- 开/关 收藏夹</li>
+<li>D -- 删除 选中的 收藏</li>
+<li>? -- 显示帮助</li>
+<li>Enter -- 选择/展开关闭 目录</li>
+<li>m -- 显示文件操作菜单，用它来创建/移动/删除 目录或文件</li>
+<li>u -- 跳到上一个文件夹</li>
+<li>C -- 将跟节点转入当前选中的目录</li>
+<li>r -- 刷新选中的目录</li>
+<li>R -- 刷新根节点的目录</li>
+<li>cd -- 将vim的运行时目录改为选中的目录</li>
+<li>Bookmark 别名 收藏 NERD tree 里面当前选择的目录 </li>
+</ul><h3>BufExplorer</h3>
+
+<ul>
+<li>D -- 关闭选中的文件</li>
+<li>d -- 清楚选中的文件</li>
+<li>Enter -- 切换到选中的文件</li>
+<li>p -- 显示隐藏 文件名列</li>
+<li>R -- 显示隐藏 文件目录列</li>
+<li>u -- 显示隐藏 未列出的 Buffers</li>
+<li>s -- 改变排序方式 "编号(打开的顺序)","文件名","目录名","mru","扩展名"</li>
+<li>r -- 倒序排列 </li>
+</ul><h2>截图</h2>
+
+<p><img src="http://farm6.static.flickr.com/5090/5285851000_92618eddb4_b.jpg" alt="vim1"><img src="http://farm6.static.flickr.com/5045/5285850816_7df1afe88c_b.jpg" alt="vim2"></p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/huacnlee">huacnlee</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-9745660-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
